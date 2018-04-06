@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ChutesAndLadders()
+comment0.text=\r\nThis\ is\ a\ constructor\ for\ the\ objects\ of\ the\ ChutesAndLadders\ class\ \r\n
+comment1.params=simulationCount
+comment1.target=void\ runSimulation(int)
+comment1.text=\r\n\ This\ method\ will\ simulate\ the\ game\ Chutes\ and\ Ladders\ by\ creating\ an\ object\ from\ the\ Random\ class.\r\n\ It\ will\ mostly\ be\ inside\ of\ a\ for\ loop\ that\ will\ increment\ until\ it\ reaches\ the\ desired\ number\ of\r\n\ games\ to\ be\ played.\ The\ inner\ while\ loop\ will\ simulate\ a\ piece\ moving\ along\ the\ 100\ space\ board\ and\ \r\n\ it\ will\ stop\ once\ it\ reached\ the\ length\ of\ the\ array\ minus\ one\ because\ space\ 0\ in\ the\ array\ is\ off\ the\ \r\n\ board.\ ALl\ of\ the\ cases\ to\ handle\ the\ chutes\ and\ the\ ladders\ will\ be\ done\ in\ if\ statements\ and\ then\ the\ \r\n\ data\ will\ be\ held\ onto\ for\ further\ manipulation\ \r\n\ \r\n\ @param\ int\ simulationCount\ the\ number\ of\ games\ that\ are\ to\ be\ played\ \r\n\ \ \r\n
+comment2.params=
+comment2.target=double\ getAverageSpins()
+comment2.text=\r\n\ this\ method\ will\ be\ used\ to\ average\ in\ the\ numbers\ of\ spins\ it\ takes\ in\ a\ simulation\ to\ win\ the\ game\ \r\n\ it\ will\ loop\ through\ the\ array\ list\ of\ spins\ it\ took\ to\ complete\ a\ game\ which\ is\ held\ in\ an\ array\ \r\n\ list.\ It\ will\ add\ each\ element\ together\ to\ get\ the\ sum\ of\ spins\ per\ game\ and\ then\ it\ will\ divide\ by\ \r\n\ the\ number\ of\ simulations\ and\ then\ return\ that\ number\ which\ will\ be\ the\ average\ number\ of\ spins\ \r\n\ \r\n\ @return\ the\ average\ number\ of\ spins\ it\ takes\ for\ the\ number\ of\ simulations.\ \ \r\n\ \r\n
+comment3.params=
+comment3.target=double\ getAverageChutes()
+comment3.text=\r\n\ gets\ the\ average\ number\ of\ chutes\ landed\ on\ in\ a\ given\ number\ of\ simulations.\ It\ will\ do\ this\ by\ \r\n\ iterating\ through\ the\ number\ of\ chutes\ landed\ on\ in\ the\ Array\ List\ of\ chutes\ per\ game.\ It\ will\ add\ \r\n\ each\ number\ to\ the\ sum\ and\ then\ after\ the\ loop\ it\ will\ take\ the\ sum\ and\ divide\ it\ by\ the\ number\ of\ \r\n\ simulations\ that\ were\ run.\ It\ will\ then\ return\ the\ average\ number\ of\ chutes.\ \r\n\ \r\n\ @return\ the\ average\ number\ of\ chutes\ landed\ on\ averaged\ in\ a\ given\ simulation\ \r\n
+comment4.params=
+comment4.target=double\ getAverageLadders()
+comment4.text=\r\n\ gets\ the\ average\ number\ of\ ladders\ landed\ on\ in\ a\ given\ number\ of\ simulations.\ It\ will\ loop\ through\ \r\n\ each\ games\ number\ of\ ladders\ landed\ on\ that\ was\ stored\ in\ an\ array\ list\ and\ add\ that\ to\ the\ sum\ of\r\n\ ladders\ for\ the\ entire\ simulation.\ It\ will\ then\ take\ the\ sum\ and\ divide\ it\ by\ the\ number\ of\ simulations\r\n\ that\ were\ run\ \r\n\ \r\n\ @return\ the\ number\ of\ ladders\ landed\ on\ in\ a\ simulation\ \r\n
+comment5.params=
+comment5.target=int\ getMostCommonSpace()
+comment5.text=\r\n\ this\ method\ will\ be\ used\ to\ find\ the\ most\ common\ space\ landed\ on\ ina\ given\ number\ of\ simulatations\r\n\ It\ will\ loop\ through\ the\ entire\ array\ that\ I\ used\ to\ simulate\ the\ board\ and\ then\ it\ will\ find\ the\r\n\ the\ element\ in\ the\ array\ with\ the\ greatest\ number\ of\ tallies\ that\ indicates\ which\ space\ was\ landed\ \r\n\ on\ the\ most\r\n\ \r\n\ @return\ the\ most\ common\ space\ that\ was\ landed\ on\ in\ the\ given\ number\ of\ simulations\r\n
+numComments=6
